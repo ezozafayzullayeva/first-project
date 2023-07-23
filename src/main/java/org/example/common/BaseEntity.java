@@ -10,7 +10,7 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class BaseEntity<ID> {
+ public class BaseEntity<ID> {
     private ID id;
     private LocalDateTime created;
     private LocalDateTime modified;
